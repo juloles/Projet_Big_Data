@@ -1,13 +1,13 @@
 import java.util.Date;
 
-public class Declaration {
+public class Anomalie {
     private int id;
     private Date date;
     private String typeAnomalie;
     private int arrondissement;
     private String outil;
 
-    public Declaration(int id, Date date, String typeAnomalie, int arrondissement, String outil) {
+    public Anomalie(int id, Date date, String typeAnomalie, int arrondissement, String outil) {
         this.id = id;
         this.date = date;
         this.typeAnomalie = typeAnomalie;
