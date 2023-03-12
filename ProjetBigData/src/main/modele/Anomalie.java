@@ -15,6 +15,8 @@ public class Anomalie {
         this.outil = outil;
     }
 
+
+
     public int getId() {
         return id;
     }
